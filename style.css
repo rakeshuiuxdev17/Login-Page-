@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background Image */
+body {
+    height: 100vh;
+    background: url("Desktop-hd-nice-nature-wallpapers-free-download.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass Card */
+.login-box {
+    width: 380px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Input Box */
+.input-box {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    background: rgba(255,255,255,0.2);
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+/* Options */
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+/* Register */
+.register {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
